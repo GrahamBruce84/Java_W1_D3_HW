@@ -9,7 +9,7 @@ public class GodzillaTest {
 
     @Before
     public void before(){
-        godzilla = new Godzilla("Gary", 100, 50);
+        godzilla = new Godzilla("Gary", 100);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class GodzillaTest {
 
     @Test
     public void canRoar(){
-        assertEquals(godzilla.roar(), "Roooooaooooaaaaaaaaar!!!");
+        assertEquals(godzilla.roar(), "IN YOUR FACE!!");
     }
 
     @Test

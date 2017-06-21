@@ -12,8 +12,11 @@ public abstract class Kaiju {
         this.healthValue = healthValue;
     }
 
+    public String getName() {
+        return name;
+    }
 
-
-
-
+    public int getHealthValue() {
+        return healthValue;
+    }
 }
