@@ -13,7 +13,7 @@ public class SkyScraper extends HumanConstructs implements Destroyable{
         return "SkyScraper has been destroyed";
     }
 
-    public String attack(Kaiju kaiju){
+    public String attack(){
         return "Falls on monster, BOOYA!";
     }
 

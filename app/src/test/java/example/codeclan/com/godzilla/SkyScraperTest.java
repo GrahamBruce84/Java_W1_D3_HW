@@ -18,4 +18,9 @@ public class SkyScraperTest {
     public void canDie(){
         assertEquals("SkyScraper has been destroyed", skyscraper.die());
     }
+
+    @Test
+    public void canAttack(){
+        assertEquals("Falls on monster, BOOYA!", SkyScraper.attack());
+    }
 }
